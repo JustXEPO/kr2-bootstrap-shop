@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+  href="vendor/bootstrap/css/bootstrap.min.css"
   rel="stylesheet">
   <link rel="stylesheet" href="css/custom.css">
   <title>Услуга — РаботаЗаДеньги</title>
@@ -29,16 +29,27 @@
       <div class="collapse navbar-collapse" id="mainNavbar">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">
-              Главная
+            <a class="nav-link" href="index.html">Главная</a>
+          </li>
+
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle active" href="#" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              Каталог
             </a>
+            <ul class="dropdown-menu dropdown-menu-dark dropdown-menu-end">
+              <li>
+                <a class="dropdown-item" href="catalog.html">
+                  Все товары
+                </a>
+              </li>
+              <li><hr></li>
+              <li><a class="dropdown-item" href="product.html">День в офисе ВКонтакте</a></li>
+              <li><a class="dropdown-item" href="product-2.html">Месяц в «Северстали»</a></li>
+              <li><a class="dropdown-item active" aria-current="page" href="product-3.html">Неделя ремонта в МБОУ ЛСОШ</a></li>
+            </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="catalog.html">Каталог</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="product.html">Услуги</a>
-          </li>
+
           <li class="nav-item">
             <a class="nav-link" href="order.html">Заявка</a>
           </li>
@@ -115,7 +126,7 @@
   </main>
 
   <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    src="vendor/bootstrap/js/bootstrap.bundle.min.js">
   </script>
 </body>
 </html>

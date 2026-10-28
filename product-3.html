@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+  rel="stylesheet">
+  <link rel="stylesheet" href="css/custom.css">
+  <title>Услуга — РаботаЗаДеньги</title>
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">РаботаЗаДеньги</a>
+
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mainNavbar"
+        aria-controls="mainNavbar"
+        aria-expanded="false"
+        aria-label="Переключить навигацию"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="mainNavbar">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">
+              Главная
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="catalog.html">Каталог</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="product.html">Услуги</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="order.html">Заявка</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <nav aria-label="breadcrumb">
+      <ol class="breadcrumb">
+        <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
+        <li class="breadcrumb-item"><a href="catalog.html">Каталог</a></li>
+        <li class="breadcrumb-item active" aria-current="page">Неделя ремонта объекта «МБОУ ЛСОШ №2»</li>
+      </ol>
+    </nav>
+
+    <div class="row g-4">
+      <div class="col-12 col-lg-6">
+        <div class="card shadow-sm">
+          <div class="bg-light border rounded d-flex align-items-center justify-content-center">
+            <img src="images/shkololo.jpeg" class="img-fluid w-100 h-100 object-fit-cover" alt="Рабочее место внутри Северстали">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-12 col-lg-6">
+        <span class="badge bg-danger mb-3">Скидка</span>
+        <h1 class="h2">Неделя ремонта объекта «МБОУ ЛСОШ №2»</h1>
+        <p class="lead text-muted">
+          Давно хотели стать разнорабочим? Хотите гордиться тем, что участвовали в ремонте своей школы?
+          Вам крупно повезло! Из-за нехватки кадров у Вас имеется возможность работать на стройке по
+          крайне доступной цене
+        </p>
+        <p class="fs-3 fw-bold">7777 руб.</p>
+
+        <div class="d-flex gap-2 mb-4">
+          <a class="btn btn-primary btn-lg" href="order.html">
+            Оформить заявку
+          </a>
+          <a class="btn btn-outline-secondary btn-lg" href="catalog.html">
+            Назад в каталог
+          </a>
+        </div>
+
+        <div class="alert alert-warning" role="alert">
+          Это учебная карточка услуги. Данные используются для демонстрации Bootstrap-компонентов.
+        </div>
+      </div>
+    </div>
+
+    <section class="mt-5">
+      <h2 class="h4 mb-3">Характеристики</h2>
+
+      <div class="table-responsive">
+        <table class="table table-striped table-bordered align-middle">
+          <tbody>
+            <tr>
+              <th scope="row">Категория</th>
+              <td>Строительство, таскание мешков, уборка строительного мусора</td>
+            </tr>
+            <tr>
+              <th scope="row">Цена</th>
+              <td>7777 руб.</td>
+            </tr>
+            <tr>
+              <th scope="row">Наличие</th>
+              <td>В наличии</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+  </script>
+</body>
+</html>

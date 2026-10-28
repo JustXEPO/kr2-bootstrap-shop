@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link
-  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
   rel="stylesheet">
   <link rel="stylesheet" href="css/custom.css">
-  <title>Товар — Bootstrap Shop</title>
+  <title>Услуга — РаботаЗаДеньги</title>
 </head>
 <body>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
     <div class="container">
-      <a class="navbar-brand" href="index.html">Bootstrap Shop</a>
+      <a class="navbar-brand" href="index.html">РаботаЗаДеньги</a>
 
       <button
         class="navbar-toggler"
@@ -29,7 +29,7 @@
       <div class="collapse navbar-collapse" id="mainNavbar">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="index.html">
+            <a class="nav-link" href="index.html">
               Главная
             </a>
           </li>
@@ -37,7 +37,7 @@
             <a class="nav-link" href="catalog.html">Каталог</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" href="product.html">Товар</a>
+            <a class="nav-link active" aria-current="page" href="product.html">Услуги</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="order.html">Заявка</a>
@@ -52,27 +52,28 @@
       <ol class="breadcrumb">
         <li class="breadcrumb-item"><a href="index.html">Главная</a></li>
         <li class="breadcrumb-item"><a href="catalog.html">Каталог</a></li>
-        <li class="breadcrumb-item active" aria-current="page">Товар 1</li>
+        <li class="breadcrumb-item active" aria-current="page">День стажировки в офисе ВКонтакте</li>
       </ol>
     </nav>
 
     <div class="row g-4">
       <div class="col-12 col-lg-6">
         <div class="card shadow-sm">
-          <div class="placeholder-image bg-light border rounded d-flex align-items-center justify-content-center">
-            <span class="text-muted">Изображение товара</span>
+          <div class="bg-light border rounded d-flex align-items-center justify-content-center">
+            <img src="images/VK.jpeg" class="img-fluid w-100 h-100 object-fit-cover" alt="Офис ВКонтакте">
           </div>
         </div>
       </div>
 
       <div class="col-12 col-lg-6">
         <span class="badge bg-success mb-3">Новинка</span>
-        <h1 class="h2">Товар 1</h1>
+        <h1 class="h2">День стажировки в офисе ВКонтакте</h1>
         <p class="lead text-muted">
-          Подробное описание учебного товара для страницы карточки.
+          Целый день вы будете заниматься полезнейшими делами: от изменения элементов в таблице
+          Эксель, до копирования документов и их доставки начальству.
         </p>
-
-        <p class="fs-3 fw-bold">1000 руб.</p>
+        <p class="lead text-muted">*Посещение уборной и обед с коллегами в стоимость услуги не входят</p>
+        <p class="fs-3 fw-bold">9999 руб.</p>
 
         <div class="d-flex gap-2 mb-4">
           <a class="btn btn-primary btn-lg" href="order.html">
@@ -84,7 +85,7 @@
         </div>
 
         <div class="alert alert-warning" role="alert">
-          Это учебная карточка товара. Данные используются для демонстрации Bootstrap-компонентов.
+          Это учебная карточка услуги. Данные используются для демонстрации Bootstrap-компонентов.
         </div>
       </div>
     </div>
@@ -97,11 +98,11 @@
           <tbody>
             <tr>
               <th scope="row">Категория</th>
-              <td>Учебные товары</td>
+              <td>IT-индустрия</td>
             </tr>
             <tr>
               <th scope="row">Цена</th>
-              <td>1000 руб.</td>
+              <td>9999 руб.</td>
             </tr>
             <tr>
               <th scope="row">Наличие</th>
@@ -114,7 +115,7 @@
   </main>
 
   <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
   </script>
 </body>
 </html>
